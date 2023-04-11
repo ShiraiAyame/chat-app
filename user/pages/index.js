@@ -6,7 +6,7 @@ import io from "socket.io-client";
 import { useState, useEffect } from 'react';
 
 
-const socket = io("http://localhost:5000");
+const socket = io("https://chat-app-kztb.vercel.app");
 
 const inter = Inter({ subsets: ['latin'] })
 
